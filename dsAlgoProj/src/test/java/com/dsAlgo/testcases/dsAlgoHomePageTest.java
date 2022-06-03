@@ -32,6 +32,7 @@ public class dsAlgoHomePageTest extends Baseclass {
 	stackPage stPage;
 	QueuePage qPage;
 
+	// generating extent reports
 	ExtentReports extent = new ExtentReports();
 	ExtentSparkReporter spark = new ExtentSparkReporter("target/Sparkreport.html");
 
